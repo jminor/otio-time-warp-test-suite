@@ -34,7 +34,7 @@ Then verify that the OCR script can extract the frame counter from the rendered 
 % diff ocr_results.txt test_pattern.ocr_baseline.txt && echo PASS || echo FAIL
 ```
 
-![test_pattern_media_1920x1080_24_h264.mov]
+![test_pattern_media_1920x1080_24_h264.mov](test_pattern_media_1920x1080_24_h264.mov)
 
 ## Test Timeline
 
