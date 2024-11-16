@@ -143,7 +143,7 @@ you can import the original AAF, and render the sequence to a MOV file.
 - Launch Avid Media Composer.
 - Create a project with settings: 1920x1080 24 fps
 - Import the test media clip into Media Composer.
-- Import the `timewarp_test.avid_media_composer.aaf` into Media Composer.
+- Import the `time_warp_test.avid_media_composer.aaf` into Media Composer.
 - Play the sequence to make sure it looks correct.
 - Export the sequence to a MOV file.
   - Make sure the MOV is 1920x1080 @ 24fps so the OCR will work.
