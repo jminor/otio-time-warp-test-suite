@@ -34,6 +34,8 @@ Then verify that the OCR script can extract the frame counter from the rendered 
 % diff ocr_results.txt test_pattern.ocr_baseline.txt && echo PASS || echo FAIL
 ```
 
+![test_pattern_media_1920x1080_24_h264.mov]
+
 ## Test Timeline
 
 The test timeline file `time_warp_test_suite.otio` was originally authored in
@@ -110,6 +112,14 @@ Should we include these also?
   - Segment fully after
   - Segment overlapping end
   - Segment beyond start and end
+
+## Baseline Video
+
+The verified correct rendered MOV `time_warp_test.baseline.mov` matches
+the test suite timeline `time_warp_test_suite.otio` exactly. The OCR result
+file `time_warp_test.ocr_baseline.txt` contains the expected frame counter
+generated from that video. See below for details on how to regenerate the OCR
+results.
 
 ## Running the Test Suite
 
