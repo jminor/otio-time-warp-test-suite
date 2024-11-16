@@ -35,18 +35,40 @@ On macOS you can get both of these via `brew install ffmpeg`.
 
 ## Test Media
 
-To generate the test media, use the `generate_test_pattern_media.sh` script.
+One file is provided:
+- `test_pattern_media_1920x1080_24_h264.mov`
+
+The test media is a short video clip with the following characteristics:
+- 1920x1080 resolution
+- 24 frames per second
+- 5 seconds duration
+- Starting timecode of 01:00:00:00
+- Timecode is burned into the video (middle)
+- Frame counter is burned into the video (top right) in two forms:
+  - Counter starting at frame 0 <-- this is the text used for OCR comparison
+  - Counter starting at frame 86400 (1 hour at 24fps) matching the timecode
+- Not Used, but included for future use:
+  - SMPTE color bars
+  - 440 Hz sine wave audio
+  - Overlaid audio waveform
+
+To generate the test media in a variety of codecs, use the `generate_test_pattern_media.sh` script.
 Then verify that the OCR script can extract the frame counter from the rendered video.
 
 ```bash
 % ./generate_test_pattern_media.sh
 % ./ocr_frame_counter.sh test_pattern_media_1920x1080_24_h264.mov > ocr_results.txt
 % diff ocr_results.txt test_pattern.ocr_baseline.txt && echo PASS || echo FAIL
+PASS
 ```
 
 ![test_pattern_media_1920x1080_24_h264.mov](test_pattern_media_1920x1080_24_h264.mov)
 
 ## Test Timeline
+
+Two files are provided:
+- `time_warp_test_suite.otio` is the test timeline in OTIO format
+- `time_warp_test_suite.otioz` is the same timeline with embedded media (the test media clip above)
 
 The test timeline file `time_warp_test_suite.otio` was originally authored in
 Avid Media Composer, so it contains AAF-specific metadata in addition to standard OTIO
@@ -154,6 +176,7 @@ Now use OCR to read the frame counter and compare it to the baseline:
 ```bash
 % ./ocr_frame_counter.sh avid_render.mov > ocr_results.txt
 % diff ocr_results.txt ocr_baseline.txt && echo PASS || echo FAIL
+PASS
 ```
 
 To recreate the `time_warp_test_suite.otio` from the AAF, use this command:
