@@ -22,10 +22,20 @@ This method can be applied to any NLE, renderer, or DCC. If those applications
 support OTIO, then we can import the test OTIO provided here rather than manually
 recreating the the complex set of time warps.
 
-## Test Media
+## Requirements
 
 To generate the test media, use the `generate_test_pattern_media.sh` script, which
 requires a recent version of [ffmpeg](https://ffmpeg.org/) (v 7.0.1 at the time of this writing).
+
+The `ocr_frame_counter.sh` script requires a recent version of
+ffprobe (which is usually installed with ffmpeg) [compiled with the
+OCR feature enabled](https://ffmpeg.org/ffmpeg-filters.html#ocr).
+
+On macOS you can get both of these via `brew install ffmpeg`.
+
+## Test Media
+
+To generate the test media, use the `generate_test_pattern_media.sh` script.
 Then verify that the OCR script can extract the frame counter from the rendered video.
 
 ```bash
@@ -123,14 +133,12 @@ results.
 
 ## Running the Test Suite
 
-Note: the `ocr_frame_counter.sh` script requires a recent version of
-ffprobe, which is usually installed with [ffmpeg](https://ffmpeg.org/), [compiled with the
-OCR feature enabled](https://ffmpeg.org/ffmpeg-filters.html#ocr).
+The steps to run the test suite vary depending on the NLE or renderer used.
 
 ### [Avid Media Composer](https://www.avid.com/media-composer)
 
 Since the test suite composition was originally authored in Avid Media Composer,
-you can import the original AAF.
+you can import the original AAF, and render the sequence to a MOV file.
 
 - Launch Avid Media Composer.
 - Create a project with settings: 1920x1080 24 fps
@@ -140,6 +148,8 @@ you can import the original AAF.
 - Export the sequence to a MOV file.
   - Make sure the MOV is 1920x1080 @ 24fps so the OCR will work.
   - Codec is not important as long as it is supported by ffmpeg (h264 works fine).
+
+Now use OCR to read the frame counter and compare it to the baseline:
 
 ```bash
 % ./ocr_frame_counter.sh avid_render.mov > ocr_results.txt
