@@ -49,8 +49,8 @@ Then verify that the OCR script can extract the frame counter from the rendered 
 ## Test Timeline
 
 The test timeline file `time_warp_test_suite.otio` was originally authored in
-Avid Media Composer, so it contains Avid-specific metadata in addition to standard OTIO
-time warp effects. The Avid-specific metadata is not used in this test suite.
+Avid Media Composer, so it contains AAF-specific metadata in addition to standard OTIO
+time warp effects. The AAF-specific metadata is not used in this test suite.
 
 TODO: Should we strip that metadata out? For now, it is helpful for debugging the AAF->OTIO
 conversion process, but people may find it confusing...
