@@ -14,6 +14,10 @@ into various NLEs, apply time warps, and export the results. We then use Optical
 Character Recognition (OCR) to extract the timecode and frame counter from the
 rendered video, and compare the results to the desired reference baseline.
 
+If all the time warps effects were applied correctly, then the OCR results should
+match the reference baseline exactly. If not, then we can compare frame by frame
+to determine where the mismatch occurred.
+
 This method can be applied to any NLE, renderer, or DCC. If those applications
 support OTIO, then we can import the test OTIO provided here rather than manually
 recreating the the complex set of time warps.
@@ -29,6 +33,21 @@ Then verify that the OCR script can extract the frame counter from the rendered 
 % ./ocr_frame_counter.sh test_pattern_media_1920x1080_24_h264.mov > ocr_results.txt
 % diff ocr_results.txt test_pattern.ocr_baseline.txt && echo PASS || echo FAIL
 ```
+
+## Test Timeline
+
+The test timeline file `time_warp_test_suite.otio` was originally authored in
+Avid Media Composer, so it contains Avid-specific metadata in addition to standard OTIO
+time warp effects. The Avid-specific metadata is not used in this test suite.
+
+TODO: Should we strip that metadata out? For now, it is helpful for debugging the AAF->OTIO
+conversion process, but people may find it confusing...
+
+the AAF and rendered MOV exported from Media Composer are the ground truth to compare
+others against.
+
+As OTIO import/export features are added to Media Composer (currently in beta/preview)
+we can use this suite to verify that the OTIO and AAF match each other.
 
 ## Time Warp Test Suite
 
@@ -58,7 +77,7 @@ Here is a complete list of the time warp effects in order:
   - Speed up to 2x (200%) speed
   - Speed up to 10x (1000%) speed
 
-### TODO:
+### TODO: Add these time warps also...
 
 - Linear time warps fit-to-fill
   - Fit-to-fill 99 frames into 100
@@ -100,6 +119,9 @@ OCR feature enabled](https://ffmpeg.org/ffmpeg-filters.html#ocr).
 
 ### [Avid Media Composer](https://www.avid.com/media-composer)
 
+Since the test suite composition was originally authored in Avid Media Composer,
+you can import the original AAF.
+
 - Launch Avid Media Composer.
 - Create a project with settings: 1920x1080 24 fps
 - Import the test media clip into Media Composer.
@@ -114,13 +136,34 @@ OCR feature enabled](https://ffmpeg.org/ffmpeg-filters.html#ocr).
 % diff ocr_results.txt ocr_baseline.txt && echo PASS || echo FAIL
 ```
 
+To recreate the `time_warp_test_suite.otio` from the AAF, use this command:
+
+```bash
+% otioconvert -i avid_media_composer/time_warp_test.avid_media_composer.aaf -o converted.otio
+% otiotool -i converted.otio --relink ./ -o new_time_warp_test_suite.otio
+```
+
 ### [Toucan](https://github.com/OpenTimelineIO/toucan)
+
+Toucan can render the `time_warp_test_suite.otio` to a MOV file for comparison, like this:
 
 ```bash
 % toucan-render time_warp_test_suite.otio - -raw rgba | ffmpeg -y -f rawvideo -pix_fmt rgba -s 1920x1080 -r 24 -i pipe: toucan_render.mov
 % ./ocr_frame_counter.sh toucan_render.mov > ocr_results.txt
 % diff ocr_results.txt ocr_baseline.txt && echo PASS || echo FAIL
 ```
+
+### More Host Applications...
+
+TODO:
+- [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
+- [Adobe Premiere Pro](https://www.adobe.com/products/premiere.html)
+- [Final Cut Pro X](https://www.apple.com/final-cut-pro/)
+- [Nuke Studio](https://www.foundry.com/products/nuke-studio)
+- [cineSync Play](https://www.backlight.co/product/cinesync/download)
+- [OpenRV](https://github.com/AcademySoftwareFoundation/OpenRV)
+- [tlRender](https://github.com/darbyjohnston/tlRender)
+- etc.
 
 ## What Happens If They Don't Match?
 
