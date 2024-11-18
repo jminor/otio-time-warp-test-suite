@@ -1,5 +1,17 @@
 # OpenTimelineIO Time Warp Test Suite
 
+## Status
+
+Note: This is a work in progress. The test suite is not yet complete, and there
+are some flaws which need to be addressed before it becomes useful. Specifically:
+- The provided `time_warp_test_suite.otio` file has source_ranges which do not align with the embedded timecode in the sample media.
+- The provided baseline MOV file has not been thouroughly vetted for accuracy.
+
+If you would like to help with this project, feel free to use any of these:
+- Open a [discussion topic](https://github.com/jminor/otio-time-warp-test-suite/discussions)
+- File an [issue](https://github.com/jminor/otio-time-warp-test-suite/issues)
+- Join the #OpenTimelineIO Slack channel on https://slack.aswf.io/
+
 ## Introduction
 
 This repository contains a test suite for [OpenTimelineIO](https://opentimeline.io/)
