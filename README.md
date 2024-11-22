@@ -43,7 +43,7 @@ The `ocr_frame_counter.sh` script requires a recent version of
 ffprobe (which is usually installed with ffmpeg) [compiled with the
 OCR feature enabled](https://ffmpeg.org/ffmpeg-filters.html#ocr).
 
-On macOS you can get both of these via `brew install ffmpeg`.
+On macOS you can get both ffmpeg and ffprobe via `brew install ffmpeg`.
 
 ## Test Media
 
@@ -122,9 +122,6 @@ Here is a complete list of the time warp effects in order:
   - Speed up to 110% speed
   - Speed up to 2x (200%) speed
   - Speed up to 10x (1000%) speed
-
-### TODO: Add these time warps also...
-
 - Linear time warps fit-to-fill
   - Fit-to-fill 99 frames into 100
   - Fit-to-fill 90 frames into 100
@@ -142,6 +139,9 @@ Here is a complete list of the time warp effects in order:
   - Reverse 200% (frames 99 to 0, on 2s)
   - Reverse 30%
   - Reverse 120%
+
+### TODO: Add these time warps also...
+
 - Keyframed non-linear time warps
   - Linear keyframes
   - Bezier keyframes
@@ -195,7 +195,7 @@ To recreate the `time_warp_test_suite.otio` from the AAF, use this command:
 
 ```bash
 % otioconvert -i avid_media_composer/time_warp_test.avid_media_composer.aaf -o converted.otio
-% otiotool -i converted.otio --relink ./ -o new_time_warp_test_suite.otio
+% otiotool -i converted.otio --relink-by-name ./ -o new_time_warp_test_suite.otio
 ```
 
 ### [Toucan](https://github.com/OpenTimelineIO/toucan)
