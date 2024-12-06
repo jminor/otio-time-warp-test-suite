@@ -4,8 +4,8 @@
 
 Note: This is a work in progress. The test suite is not yet complete, and there
 are some flaws which need to be addressed before it becomes useful. Specifically:
-- The provided `time_warp_test_suite.otio` file has source_ranges which do not align with the embedded timecode in the sample media.
 - The provided baseline MOV file has not been thouroughly vetted for accuracy.
+- Reverse time warps have incorrect time_scalar values in the OTIO file.
 
 If you would like to help with this project, feel free to use any of these:
 - Open a [discussion topic](https://github.com/jminor/otio-time-warp-test-suite/discussions)
@@ -83,17 +83,31 @@ Two files are provided:
 - `time_warp_test_suite.otioz` is the same timeline with embedded media (the test media clip above)
 
 The test timeline file `time_warp_test_suite.otio` was originally authored in
-Avid Media Composer, so it contains AAF-specific metadata in addition to standard OTIO
-time warp effects. The AAF-specific metadata is not used in this test suite.
+Avid Media Composer and then converted to OTIO (see below for specifics).
+In future, we may choose to author new versions of the test suite in other applications (see list of applications below).
 
-TODO: Should we strip that metadata out? For now, it is helpful for debugging the AAF->OTIO
-conversion process, but people may find it confusing...
-
-the AAF and rendered MOV exported from Media Composer are the ground truth to compare
+The AAF and rendered MOV exported from Media Composer are the ground truth to compare
 others against.
 
-As OTIO import/export features are added to Media Composer (currently in beta/preview)
+As OTIO import/export features are added to Media Composer (currently in beta/preview as of Dec 2024)
 we can use this suite to verify that the OTIO and AAF match each other.
+
+### Re-creating the Test Timeline
+To recreate `time_warp_test_suite.otio` and `time_warp_test_suite.otioz` from the source AAF, use this command:
+
+```bash
+% ./make_time_warp_test_timeline.sh
+```
+
+Note: As of 2024-12-05, there is a
+[known issue](https://github.com/OpenTimelineIO/otio-aaf-adapter/issues/53)
+in the OTIO AAF adapter, which causes the start timecode
+of these test clips to be incorrect. To work around the bug, use
+[this fix](https://github.com/OpenTimelineIO/otio-aaf-adapter/pull/44),
+by running this command instead of the one above (here using [uvx](https://docs.astral.sh/uv/guides/tools/#using-tools) for convenience):
+```bash
+% uv run --with opentimelineio --with git+https://github.com/markreidvfx/otio-aaf-adapter.git@mastermob_refactor_v1  ./make_time_warp_test_timeline.sh
+```
 
 ## Time Warp Test Suite
 
@@ -134,13 +148,19 @@ Here is a complete list of the time warp effects in order:
   - Fit-to-fill 100 frames into 10
   - Fit-to-fill 100 frames into 9
 - Backwards time warps
+  - TODO: The `time_warp_test_suite.otio` file contains incorrect time_scalar values for most of these.
   - Reverse 100% (frames 99 to 0)
-  - Reverse 50% (frames 99 to 50, each 2x?)
-  - Reverse 200% (frames 99 to 0, on 2s)
-  - Reverse 30%
-  - Reverse 120%
+  - Reverse 50% (frames 99 to 50, each 2x) (BUG: -0.51)
+  - Reverse 200% (frames 99 to 0, on 2s) (BUG: -1.0)
+  - Reverse 30% (BUG: -0.31)
+  - Reverse 120% (BUG: -1.0)
 
 ### TODO: Add these time warps also...
+
+- Trimmed linear time warps
+  - All/many of the above, but with the clip trimmed to a shorter length *after* applying the time warp.
+  - Ideally we can pick trims that highlight the important cases where the phase/offset of the time warp affects the output.
+  - For example, trimming 2 frames off a 33% speed up should result in a 33% speed up of the remaining frames, not a 33% slow down should cause the 1st frame of media to only appear for 1 frame instead of 3 frames.
 
 - Keyframed non-linear time warps
   - Linear keyframes
@@ -189,13 +209,6 @@ Now use OCR to read the frame counter and compare it to the baseline:
 % ./ocr_frame_counter.sh avid_render.mov > ocr_results.txt
 % diff ocr_results.txt ocr_baseline.txt && echo PASS || echo FAIL
 PASS
-```
-
-To recreate the `time_warp_test_suite.otio` from the AAF, use this command:
-
-```bash
-% otioconvert -i avid_media_composer/time_warp_test.avid_media_composer.aaf -o converted.otio
-% otiotool -i converted.otio --relink-by-name ./ -o new_time_warp_test_suite.otio
 ```
 
 ### [Toucan](https://github.com/OpenTimelineIO/toucan)
