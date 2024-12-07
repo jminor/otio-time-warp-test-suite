@@ -157,6 +157,11 @@ Here is a complete list of the time warp effects in order:
 
 ### TODO: Add these time warps also...
 
+- Trim-to-fill time warps
+  - Trimmed to 100%
+  - Trimmed slow down
+  - Trimmed speed up
+
 - Trimmed linear time warps
   - All/many of the above, but with the clip trimmed to a shorter length *after* applying the time warp.
   - Ideally we can pick trims that highlight the important cases where the phase/offset of the time warp affects the output.
@@ -220,6 +225,20 @@ Toucan can render the `time_warp_test_suite.otio` to a MOV file for comparison, 
 % ./ocr_frame_counter.sh toucan_render.mov > ocr_results.txt
 % diff ocr_results.txt ocr_baseline.txt && echo PASS || echo FAIL
 ```
+
+### Your Application Here
+
+If your application supports OTIO, you can follow these steps:
+- Download this repository (the full [repository ZIP file](https://github.com/jminor/otio-time-warp-test-suite/archive/refs/heads/main.zip) is most convenient)
+- Import one of these:
+  - `time_warp_test_suite.otioz` (media included)
+  - `time_warp_test_suite.otio` file, plus separate `test_pattern_media_1920x1080_24_h264.mov` media file.
+- Take some screenshots or notes about how this imports, and any errors or warnings that come up.
+- See if it appears to play back correctly.
+- Render out a video of the sequence.
+- Use the provided OCR script to extract frame numbers from the video like this: `./ocr_frame_counter.sh rendered.mov > ocr_results.txt`
+- Compare to the provided `time_warp_test.ocr_baseline.txt` file.
+- Let us know how it went! (See contact info at the top of this README.)
 
 ### More Host Applications...
 
