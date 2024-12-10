@@ -6,10 +6,12 @@ INPUT_FILE="$1"
 OCR_CROP="550:75:0:0"
 
 # Use optical character recognition (OCR) to find the frame number in the top corner of the video
+# Capture just the frame number (no text, no leading zeros)
 ffprobe -show_entries frame_tags=lavfi.ocr.text \
   -f lavfi -i "movie='${INPUT_FILE}', crop=${OCR_CROP}, negate, ocr=whitelist=0123456789" 2<&1 \
   | fgrep ocr.text \
-  | sed -E 's/^[^0-9]+0*([0-9]+).*/\1/g'  # just the frame number (no text, no leading zeros)
+  | sed -E 's/^[^0-9]+0*([0-9]+).*/\1/g' \
+  | sed -E 's/TAG:lavfi.ocr.text=/BLANK/'
 
 # If you want to extract the timecode string instead, you'll need to adjust the placement
 # and/or the crop, and include ":" in the ocr whitelist. Note: without the whitelist, the

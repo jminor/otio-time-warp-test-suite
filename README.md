@@ -111,10 +111,16 @@ by running this command instead of the one above (here using [uvx](https://docs.
 
 ## Time Warp Test Suite
 
-The time warp test suite is a single video track with clips spliced end-to-end, each
-of which has a different time warp effect applied. The time warp effects are chosen
-carefully to exercise the full range of time warp capabilities supported by OTIO,
-and several that are not yet supported.
+The time warp test suite is a single video track with clips spliced
+end-to-end, each of which has a different time warp effect applied.
+The time warp effects are chosen carefully to exercise the full range
+of time warp capabilities supported by OTIO, and several that are not
+yet supported.
+
+Note:
+- There are 1-frame gaps between each clip for clarity.
+- Each clip has a marker with an explanation of the time warp effect on that clip.
+- Audio clips do not (yet) have any time warp effects applied.
 
 Here is a complete list of the time warp effects in order:
 - Full clip (no effects)
@@ -147,6 +153,17 @@ Here is a complete list of the time warp effects in order:
   - Fit-to-fill 100 frames into 33
   - Fit-to-fill 100 frames into 10
   - Fit-to-fill 100 frames into 9
+- Linear time warps trim-to-fill ("trim" is different from "fit")
+  - Trim-to-fill 99 frames into 100
+  - Trim-to-fill 90 frames into 100
+  - Trim-to-fill 50 frames into 100
+  - Trim-to-fill 33 frames into 100
+  - Trim-to-fill 5 frames into 100
+  - Trim-to-fill 100 frames into 99
+  - Trim-to-fill 100 frames into 50
+  - Trim-to-fill 100 frames into 33
+  - Trim-to-fill 100 frames into 10
+  - Trim-to-fill 100 frames into 9
 - Backwards time warps
   - TODO: The `time_warp_test_suite.otio` file contains incorrect time_scalar values for most of these.
   - Reverse 100% (frames 99 to 0)
@@ -156,11 +173,6 @@ Here is a complete list of the time warp effects in order:
   - Reverse 120% (BUG: -1.0)
 
 ### TODO: Add these time warps also...
-
-- Trim-to-fill time warps
-  - Trimmed to 100%
-  - Trimmed slow down
-  - Trimmed speed up
 
 - Trimmed linear time warps
   - All/many of the above, but with the clip trimmed to a shorter length *after* applying the time warp.
@@ -186,7 +198,7 @@ Should we include these also?
 
 The verified correct rendered MOV `time_warp_test.baseline.mov` matches
 the test suite timeline `time_warp_test_suite.otio` exactly. The OCR result
-file `time_warp_test.ocr_baseline.txt` contains the expected frame counter
+file `time_warp_test.baseline.ocr_results.txt` contains the expected frame counter
 generated from that video. See below for details on how to regenerate the OCR
 results.
 
@@ -212,7 +224,7 @@ Now use OCR to read the frame counter and compare it to the baseline:
 
 ```bash
 % ./ocr_frame_counter.sh avid_render.mov > ocr_results.txt
-% diff ocr_results.txt ocr_baseline.txt && echo PASS || echo FAIL
+% diff ocr_results.txt time_warp_test.baseline.ocr_results.txt && echo PASS || echo FAIL
 PASS
 ```
 
@@ -223,7 +235,7 @@ Toucan can render the `time_warp_test_suite.otio` to a MOV file for comparison, 
 ```bash
 % toucan-render time_warp_test_suite.otio - -raw rgba | ffmpeg -y -f rawvideo -pix_fmt rgba -s 1920x1080 -r 24 -i pipe: toucan_render.mov
 % ./ocr_frame_counter.sh toucan_render.mov > ocr_results.txt
-% diff ocr_results.txt ocr_baseline.txt && echo PASS || echo FAIL
+% diff ocr_results.txt time_warp_test.baseline.ocr_results.txt && echo PASS || echo FAIL
 ```
 
 ### Your Application Here
@@ -237,7 +249,7 @@ If your application supports OTIO, you can follow these steps:
 - See if it appears to play back correctly.
 - Render out a video of the sequence.
 - Use the provided OCR script to extract frame numbers from the video like this: `./ocr_frame_counter.sh rendered.mov > ocr_results.txt`
-- Compare to the provided `time_warp_test.ocr_baseline.txt` file.
+- Compare to the provided `time_warp_test.baseline.ocr_results.txt` file.
 - Let us know how it went! (See contact info at the top of this README.)
 
 ### More Host Applications...

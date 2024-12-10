@@ -1,7 +1,7 @@
 {
     "OTIO_SCHEMA": "Timeline.1",
     "metadata": {},
-    "name": "OTIO Time Warp Test Suite.Exported.02",
+    "name": "OTIO Time Warp Test Suite v4.Exported.02",
     "global_start_time": {
         "OTIO_SCHEMA": "RationalTime.1",
         "rate": 24.0,
@@ -70,8 +70,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -144,8 +156,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -197,8 +221,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -250,8 +286,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -332,8 +380,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -393,8 +453,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -454,8 +526,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -536,8 +620,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -618,8 +714,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -700,8 +808,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -782,8 +902,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -864,8 +996,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -946,8 +1090,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -1028,8 +1184,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -1110,8 +1278,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -1192,8 +1372,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -1274,8 +1466,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -1356,8 +1560,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -1438,8 +1654,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -1520,8 +1748,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -1602,8 +1842,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -1684,8 +1936,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -1766,8 +2030,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -1848,8 +2124,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -1930,8 +2218,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -2012,8 +2312,950 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 100.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [
+                            {
+                                "OTIO_SCHEMA": "TimeEffect.1",
+                                "metadata": {},
+                                "name": "Motion Control",
+                                "effect_name": ""
+                            }
+                        ],
+                        "markers": [
+                            {
+                                "OTIO_SCHEMA": "Marker.2",
+                                "metadata": {},
+                                "name": "Trim-to-fill 99 frames into 100",
+                                "color": "RED",
+                                "marked_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 1.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "comment": ""
+                            }
+                        ],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 100.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [
+                            {
+                                "OTIO_SCHEMA": "TimeEffect.1",
+                                "metadata": {},
+                                "name": "Motion Control",
+                                "effect_name": ""
+                            }
+                        ],
+                        "markers": [
+                            {
+                                "OTIO_SCHEMA": "Marker.2",
+                                "metadata": {},
+                                "name": "Trim-to-fill 90 frames into 100",
+                                "color": "RED",
+                                "marked_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 1.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "comment": ""
+                            }
+                        ],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 100.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [
+                            {
+                                "OTIO_SCHEMA": "TimeEffect.1",
+                                "metadata": {},
+                                "name": "Motion Control",
+                                "effect_name": ""
+                            }
+                        ],
+                        "markers": [
+                            {
+                                "OTIO_SCHEMA": "Marker.2",
+                                "metadata": {},
+                                "name": "Trim-to-fill 50 frames into 100",
+                                "color": "RED",
+                                "marked_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 1.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "comment": ""
+                            }
+                        ],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 100.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [
+                            {
+                                "OTIO_SCHEMA": "TimeEffect.1",
+                                "metadata": {},
+                                "name": "Motion Control",
+                                "effect_name": ""
+                            }
+                        ],
+                        "markers": [
+                            {
+                                "OTIO_SCHEMA": "Marker.2",
+                                "metadata": {},
+                                "name": "Trim-to-fill 33 frames into 100",
+                                "color": "RED",
+                                "marked_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 1.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "comment": ""
+                            }
+                        ],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 100.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [
+                            {
+                                "OTIO_SCHEMA": "TimeEffect.1",
+                                "metadata": {},
+                                "name": "Motion Control",
+                                "effect_name": ""
+                            }
+                        ],
+                        "markers": [
+                            {
+                                "OTIO_SCHEMA": "Marker.2",
+                                "metadata": {},
+                                "name": "Trim-to-fill 5 frames into 100",
+                                "color": "RED",
+                                "marked_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 1.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "comment": ""
+                            }
+                        ],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 98.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [
+                            {
+                                "OTIO_SCHEMA": "TimeEffect.1",
+                                "metadata": {},
+                                "name": "Motion Control",
+                                "effect_name": ""
+                            }
+                        ],
+                        "markers": [
+                            {
+                                "OTIO_SCHEMA": "Marker.2",
+                                "metadata": {},
+                                "name": "Trim-to-fill 100 frames into 99",
+                                "color": "RED",
+                                "marked_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 1.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "comment": ""
+                            }
+                        ],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 50.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [
+                            {
+                                "OTIO_SCHEMA": "TimeEffect.1",
+                                "metadata": {},
+                                "name": "Motion Control",
+                                "effect_name": ""
+                            }
+                        ],
+                        "markers": [
+                            {
+                                "OTIO_SCHEMA": "Marker.2",
+                                "metadata": {},
+                                "name": "Trim-to-fill 100 frames into 50",
+                                "color": "RED",
+                                "marked_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 1.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "comment": ""
+                            }
+                        ],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 33.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [
+                            {
+                                "OTIO_SCHEMA": "TimeEffect.1",
+                                "metadata": {},
+                                "name": "Motion Control",
+                                "effect_name": ""
+                            }
+                        ],
+                        "markers": [
+                            {
+                                "OTIO_SCHEMA": "Marker.2",
+                                "metadata": {},
+                                "name": "Trim-to-fill 100 frames into 33",
+                                "color": "RED",
+                                "marked_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 1.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "comment": ""
+                            }
+                        ],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 10.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [
+                            {
+                                "OTIO_SCHEMA": "TimeEffect.1",
+                                "metadata": {},
+                                "name": "Motion Control",
+                                "effect_name": ""
+                            }
+                        ],
+                        "markers": [
+                            {
+                                "OTIO_SCHEMA": "Marker.2",
+                                "metadata": {},
+                                "name": "Trim-to-fill 100 frames into 10",
+                                "color": "RED",
+                                "marked_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 1.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "comment": ""
+                            }
+                        ],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 9.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [
+                            {
+                                "OTIO_SCHEMA": "TimeEffect.1",
+                                "metadata": {},
+                                "name": "Motion Control",
+                                "effect_name": ""
+                            }
+                        ],
+                        "markers": [
+                            {
+                                "OTIO_SCHEMA": "Marker.2",
+                                "metadata": {},
+                                "name": "Trim-to-fill 100 frames into 9",
+                                "color": "RED",
+                                "marked_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 1.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "comment": ""
+                            }
+                        ],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -2094,8 +3336,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -2176,8 +3430,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -2258,8 +3524,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -2340,8 +3618,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -2422,8 +3712,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -2466,8 +3768,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -2519,8 +3833,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -2551,8 +3877,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -2583,8 +3921,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -2636,8 +3986,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -2668,8 +4030,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -2700,8 +4074,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -2753,8 +4139,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -2806,8 +4204,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -2859,8 +4269,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -2912,8 +4334,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -2965,8 +4399,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -3018,8 +4464,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -3071,8 +4529,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -3124,8 +4594,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -3177,8 +4659,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -3215,7 +4709,7 @@
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
                                 "rate": 24.0,
-                                "value": 100.0
+                                "value": 99.0
                             },
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
@@ -3230,8 +4724,605 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 2.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 90.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 11.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 50.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 51.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 33.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 68.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 5.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 96.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 98.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 50.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 33.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 10.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 9.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -3283,8 +5374,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -3336,8 +5439,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -3389,8 +5504,20 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
@@ -3442,8 +5569,85 @@
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
                                 "metadata": {},
-                                "name": "",
-                                "available_range": null,
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
+                                "available_image_bounds": null,
+                                "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "metadata": {},
+                        "name": "Filler",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {},
+                        "name": "test_pattern_media_1920x1080_24_h264",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 100.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 86400.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "metadata": {},
+                                "name": "UNC Path",
+                                "available_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 120.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86400.0
+                                    }
+                                },
                                 "available_image_bounds": null,
                                 "target_url": "./test_pattern_media_1920x1080_24_h264.mov"
                             }
