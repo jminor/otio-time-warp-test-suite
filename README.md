@@ -5,7 +5,8 @@
 Note: This is a work in progress. The test suite is not yet complete, and there
 are some flaws which need to be addressed before it becomes useful. Specifically:
 - The provided baseline MOV file has not been thouroughly vetted for accuracy.
-- Reverse time warps have incorrect time_scalar values in the OTIO file.
+- Trim-to-fill time warps are incorrectly tagged as TimeEffect instead of LinearTimeWarp, and thus are missing the essential time_scalar values in the OTIO file.
+- Several reverse time warps have incorrect time_scalar values in the OTIO file.
 
 If you would like to help with this project, feel free to use any of these:
 - Open a [discussion topic](https://github.com/jminor/otio-time-warp-test-suite/discussions)
@@ -122,6 +123,9 @@ Note:
 - Each clip has a marker with an explanation of the time warp effect on that clip.
 - Audio clips do not (yet) have any time warp effects applied.
 
+Bug Alert:
+- Several of these effects are incorrect due to bugs in the AAF->OTIO conversion. They are noted with (BUG)
+
 Here is a complete list of the time warp effects in order:
 - Full clip (no effects)
 - Segments:
@@ -154,23 +158,22 @@ Here is a complete list of the time warp effects in order:
   - Fit-to-fill 100 frames into 10
   - Fit-to-fill 100 frames into 9
 - Linear time warps trim-to-fill ("trim" is different from "fit")
-  - Trim-to-fill 99 frames into 100
-  - Trim-to-fill 90 frames into 100
-  - Trim-to-fill 50 frames into 100
-  - Trim-to-fill 33 frames into 100
-  - Trim-to-fill 5 frames into 100
-  - Trim-to-fill 100 frames into 99
-  - Trim-to-fill 100 frames into 50
-  - Trim-to-fill 100 frames into 33
-  - Trim-to-fill 100 frames into 10
-  - Trim-to-fill 100 frames into 9
+  - Trim-to-fill 99 frames into 100 (BUG: TimeEffect should be LinearTimeWarp)
+  - Trim-to-fill 90 frames into 100 (BUG: TimeEffect should be LinearTimeWarp)
+  - Trim-to-fill 50 frames into 100 (BUG: TimeEffect should be LinearTimeWarp)
+  - Trim-to-fill 33 frames into 100 (BUG: TimeEffect should be LinearTimeWarp)
+  - Trim-to-fill 5 frames into 100 (BUG: TimeEffect should be LinearTimeWarp)
+  - Trim-to-fill 100 frames into 99 (BUG: TimeEffect should be LinearTimeWarp)
+  - Trim-to-fill 100 frames into 50 (BUG: TimeEffect should be LinearTimeWarp)
+  - Trim-to-fill 100 frames into 33 (BUG: TimeEffect should be LinearTimeWarp)
+  - Trim-to-fill 100 frames into 10 (BUG: TimeEffect should be LinearTimeWarp)
+  - Trim-to-fill 100 frames into 9 (BUG: TimeEffect should be LinearTimeWarp)
 - Backwards time warps
-  - TODO: The `time_warp_test_suite.otio` file contains incorrect time_scalar values for most of these.
   - Reverse 100% (frames 99 to 0)
-  - Reverse 50% (frames 99 to 50, each 2x) (BUG: -0.51)
-  - Reverse 200% (frames 99 to 0, on 2s) (BUG: -1.0)
-  - Reverse 30% (BUG: -0.31)
-  - Reverse 120% (BUG: -1.0)
+  - Reverse 50% (frames 99 to 50, each 2x) (BUG: -0.51 should be -0.50)
+  - Reverse 200% (frames 99 to 0, on 2s) (BUG: -1.0 should be -2.0)
+  - Reverse 30% (BUG: -0.31 should be -0.30)
+  - Reverse 120% (BUG: -1.0 should be -1.2)
 
 ### TODO: Add these time warps also...
 
