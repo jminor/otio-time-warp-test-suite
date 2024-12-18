@@ -138,11 +138,11 @@ Here is a complete list of the time warp effects in order:
   - Freeze frame at end
 - Linear time warps by percentage
   - Identity 100% speed
-  - Slow down to 99% speed (is 1 frame repeated?)
+  - Slow down to 99% speed
   - Slow down to 90% speed
   - Slow down to 50% speed
   - Slow down to 10% speed
-  - Speed up to 101% speed (is 1 frame skipped?)
+  - Speed up to 101% speed
   - Speed up to 110% speed
   - Speed up to 2x (200%) speed
   - Speed up to 10x (1000%) speed
@@ -169,9 +169,9 @@ Here is a complete list of the time warp effects in order:
   - Trim-to-fill 100 frames into 10 (BUG: TimeEffect should be LinearTimeWarp)
   - Trim-to-fill 100 frames into 9 (BUG: TimeEffect should be LinearTimeWarp)
 - Backwards time warps
-  - Reverse 100% (frames 99 to 0)
-  - Reverse 50% (frames 99 to 50, each 2x) (BUG: -0.51 should be -0.50)
-  - Reverse 200% (frames 99 to 0, on 2s) (BUG: -1.0 should be -2.0)
+  - Reverse 100%
+  - Reverse 50% (BUG: -0.51 should be -0.50)
+  - Reverse 200% (BUG: -1.0 should be -2.0)
   - Reverse 30% (BUG: -0.31 should be -0.30)
   - Reverse 120% (BUG: -1.0 should be -1.2)
 
