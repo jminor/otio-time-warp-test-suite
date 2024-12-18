@@ -236,7 +236,7 @@ PASS
 Toucan can render the `time_warp_test_suite.otio` to a MOV file for comparison, like this:
 
 ```bash
-% toucan-render time_warp_test_suite.otio - -raw rgba | ffmpeg -y -f rawvideo -pix_fmt rgba -s 1920x1080 -r 24 -i pipe: toucan_render.mov
+% toucan-render time_warp_test_suite.otio toucan_render.mov
 % ./ocr_frame_counter.sh toucan_render.mov > ocr_results.txt
 % diff ocr_results.txt time_warp_test.baseline.ocr_results.txt && echo PASS || echo FAIL
 ```
