@@ -241,6 +241,16 @@ Toucan can render the `time_warp_test_suite.otio` to a MOV file for comparison, 
 % diff ocr_results.txt time_warp_test.baseline.ocr_results.txt && echo PASS || echo FAIL
 ```
 
+See findings here: https://github.com/jminor/otio-time-warp-test-suite/issues/5
+
+### [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
+
+See findings here: https://github.com/jminor/otio-time-warp-test-suite/issues/3
+
+### [Nuke Studio](https://www.foundry.com/products/nuke-studio)
+
+See findings here: https://github.com/jminor/otio-time-warp-test-suite/issues/4
+
 ### Your Application Here
 
 If your application supports OTIO, you can follow these steps:
@@ -258,10 +268,8 @@ If your application supports OTIO, you can follow these steps:
 ### More Host Applications...
 
 TODO:
-- [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
 - [Adobe Premiere Pro](https://www.adobe.com/products/premiere.html)
 - [Final Cut Pro X](https://www.apple.com/final-cut-pro/)
-- [Nuke Studio](https://www.foundry.com/products/nuke-studio)
 - [cineSync Play](https://www.backlight.co/product/cinesync/download)
 - [OpenRV](https://github.com/AcademySoftwareFoundation/OpenRV)
 - [tlRender](https://github.com/darbyjohnston/tlRender)
