@@ -5,8 +5,8 @@
 Note: This is a work in progress. The test suite is not yet complete, and there
 are some flaws which need to be addressed before it becomes useful. Specifically:
 - The provided baseline MOV file has not been thouroughly vetted for accuracy.
-- Trim-to-fill time warps are incorrectly tagged as TimeEffect instead of LinearTimeWarp, and thus are missing the essential time_scalar values in the OTIO file.
-- Several reverse time warps have incorrect time_scalar values in the OTIO file.
+- [Trim-to-fill time warps are incorrectly tagged as TimeEffect](https://github.com/jminor/otio-time-warp-test-suite/issues/2) instead of LinearTimeWarp, and thus are missing the essential time_scalar values in the OTIO file.
+- Several [reverse time warps have incorrect time_scalar values](https://github.com/jminor/otio-time-warp-test-suite/issues/1) in the OTIO file.
 
 If you would like to help with this project, feel free to use any of these:
 - Open a [discussion topic](https://github.com/jminor/otio-time-warp-test-suite/discussions)
