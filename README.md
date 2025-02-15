@@ -2,6 +2,8 @@
 
 ## Status
 
+This is version 5 of the test suite. See [releases](https://github.com/jminor/otio-time-warp-test-suite/releases) for older versions.
+
 Note: This is a work in progress. The test suite is not yet complete, and there
 are some flaws which need to be addressed before it becomes useful. Specifically:
 - The provided baseline MOV file has not been thouroughly vetted for accuracy.
@@ -174,13 +176,46 @@ Here is a complete list of the time warp effects in order:
   - Reverse 200% (BUG: -1.0 should be -2.0)
   - Reverse 30% (BUG: -0.31 should be -0.30)
   - Reverse 120% (BUG: -1.0 should be -1.2)
+- Trimmed linear time warps by percentage
+  - Identity 100% speed - trimmed to 10 frames
+  - Slow down to 99% speed - trimmed to 10 frames
+  - Slow down to 90% speed - trimmed to 11 frames
+  - Slow down to 50% speed - trimmed to 19 frames
+  - Slow down to 10% speed - trimmed to 18 frames
+  - Speed up to 101% speed - trimmed to 10 frames
+  - Speed up to 110% speed - trimmed to 9 frames
+  - Speed up to 2x (200%) speed - trimmed to 7 frames
+  - Speed up to 10x (1000%) speed - trimmed to 5 frames
+- Trimmed linear time warps fit-to-fill
+  - Fit-to-fill 99 frames into 100 - trimmed to 10 frames
+  - Fit-to-fill 90 frames into 100 - trimmed to 11 frames
+  - Fit-to-fill 50 frames into 100 - trimmed to 19 frames
+  - Fit-to-fill 33 frames into 100 - trimmed to 12 frames
+  - Fit-to-fill 5 frames into 100 - trimmed to 12 frames
+  - Fit-to-fill 100 frames into 99 - trimmed to 10 frames
+  - Fit-to-fill 100 frames into 50 - trimmed to 6 frames
+  - Fit-to-fill 100 frames into 33 - trimmed to 8 frames
+  - Fit-to-fill 100 frames into 10 - trimmed to 4 frames
+  - Fit-to-fill 100 frames into 9 - trimmed to 4 frames
+- Trimmed linear time warps trim-to-fill
+  - Trim-to-fill 99 frames into 100 - trimmed to 9 frames
+  - Trim-to-fill 90 frames into 100 - trimmed to 10 frames
+  - Trim-to-fill 50 frames into 100 - trimmed to 17 frames
+  - Trim-to-fill 33 frames into 100 - trimmed to 25 frames
+  - Trim-to-fill 5 frames into 100 - trimmed to 27 frames
+  - Trim-to-fill 100 frames into 99 - trimmed to 9 frames
+  - Trim-to-fill 100 frames into 50 - trimmed to 9 frames
+  - Trim-to-fill 100 frames into 33 - trimmed to 8 frames
+  - Trim-to-fill 100 frames into 10 - trimmed to 3 frames
+  - Trim-to-fill 100 frames into 9 - trimmed to 3 frames
+- Trimmed backwards time warps
+  - Reverse 100% - trimmed to 20 frames
+  - Reverse 50% - trimmed to 24 frames
+  - Reverse 200% - trimmed to 36 frames
+  - Reverse 30% - trimmed to 32 frames
+  - Reverse 120% - trimmed to 32 frames
 
 ### TODO: Add these time warps also...
-
-- Trimmed linear time warps
-  - All/many of the above, but with the clip trimmed to a shorter length *after* applying the time warp.
-  - Ideally we can pick trims that highlight the important cases where the phase/offset of the time warp affects the output.
-  - For example, trimming 2 frames off a 33% speed up should result in a 33% speed up of the remaining frames, not a 33% slow down should cause the 1st frame of media to only appear for 1 frame instead of 3 frames.
 
 - Keyframed non-linear time warps
   - Linear keyframes
